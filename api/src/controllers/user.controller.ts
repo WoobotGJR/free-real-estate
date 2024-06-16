@@ -1,6 +1,5 @@
 import { Request, Response } from 'express';
 import prisma from '../lib/prisma';
-import { IUser } from '../types/UserTypes';
 import bcrypt from 'bcrypt';
 
 const getUsers = async (req: Request, res: Response) => {
